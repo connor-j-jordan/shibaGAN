@@ -8,11 +8,23 @@ ___
 
 ### Requirements/Dependencies
 
+- Numpy, Scipy, Pandas
+- TensorFlow >= 1.15
+- TensorLayer >= 1.9.1
+
+
+- Basenji & Dependencies
+- [cooltools](https://github.com/mirnylab/cooltools)
 ___
 
 ### Installation
 
-Installation has been tested on a Linux platform as well as Windows running the Ubuntu subsystem.
+shibaGAN can be downloaded in shell:
+```
+git clone https://github.com/connor-j-jordan/shibaGAN
+```
+
+Installation has been tested on a Linux platform, as well as Windows running the Ubuntu subsystem.
 ___
 
 ### Reproducing Results
@@ -25,4 +37,4 @@ ___
 
 ### License
 
-This project is licensed by the MIT License - see LICENSE.md for details.
+This project is licensed by the MIT License - see LICENSE for details.
