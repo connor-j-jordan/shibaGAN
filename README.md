@@ -3,7 +3,7 @@ ___
 
 This project is largely adapted from [hicGAN](https://github.com/kimmo1019/hicGAN) and [Akita](https://github.com/calico/basenji/tree/master/manuscripts/akita) under the MIT and Apache licenses, respectively.
 
-shibaGAN substitutes the L<sub>2</sub> MSE objective function used by Akita for an adversarial approach, constructing a GAN around Akita's 'head' model.
+shibaGAN substitutes the L<sub>2</sub> MSE objective function used by Akita for an adversarial approach, constructing a Wasserstein GAN to predict 3D genome folding patterns (in a Hi-C matrix) from linear sequence data.
 ___
 
 ### Requirements/Dependencies
@@ -12,9 +12,6 @@ ___
 - TensorFlow >= 1.15
 - TensorLayer >= 1.9.1
 
-
-- Basenji & Dependencies
-- [cooltools](https://github.com/mirnylab/cooltools)
 ___
 
 ### Installation
